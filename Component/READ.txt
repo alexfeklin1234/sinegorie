@@ -1,0 +1,31 @@
+hello!
+
+
+
+classes list:
+
+1. colors
+        exemple:
+                <h2 class='red' >hello</h2>
+
+2. container
+        exemple:
+             ==>   <h1 class='container_all' >Hello</h1>   <==
+                <button>click</button>
+                <input type="text"> 
+
+3. location
+        exemple:
+                <h1 class="right" >Hello! My name is Alex!</h1>
+
+4. background color
+        exemple:
+                <input class="bg-green" type="text">
+
+5. screen
+        exemple:
+                class='full-screen'
+
+6. button 
+        exemple:
+                <button class="common_blue" >click</button>

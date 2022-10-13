@@ -1,0 +1,34 @@
+.img_one{
+    transform: scale(1);
+    transition: 1s;
+}
+
+.img_one:hover {
+    transform: scale(1.3);
+}
+
+.img_two{
+    transform: scale(1);
+    transition: 1s;
+}
+
+.img_two:hover {
+    transform: scale(1.3);
+}
+
+.img_three{
+    transform: scale(1);
+    transition: 1s;
+}
+
+.img_three:hover {
+    transform: scale(1.3);
+}
+
+.table{
+    margin: 0 2em 0 2em;
+}
+
+.mode{
+    margin: 0 2em 0 2em;
+}

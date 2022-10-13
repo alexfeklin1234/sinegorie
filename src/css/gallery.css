@@ -1,0 +1,14 @@
+.gallery_photos{
+    width: 50%;
+    margin: 1em;
+
+
+    transform: scale(1);
+    transition: 1s;
+}
+
+
+.gallery_photos:hover {
+    transform: scale(1.3);
+}
+

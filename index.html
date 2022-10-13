@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Синегорье</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./Component/component.css">
+    <link rel="stylesheet" href="./src/css/gallery.css">
+  </head>
+  <body>
+
+    <nav class="header navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <img id="logo" loading="lazy"  src="./src/img/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#about__text" href="#">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#photo" aria-current="page"  href="#">Галерея</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#news" href="#">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#rooms" href="#">Номера</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" data-bs-toggle="modal" href="./pages/cafe.html">Бар-Ресторан</a>
+              </li>
+
+          </div>
+        </div>
+      </nav>
+
+<div class="main" >
+  <br>
+  <br>
+
+
+<section class="main__welcome" >
+  <div class=".container-xxl" >
+        <div class="row align-items-center">
+          <div class="col-8">
+            <h2>Добро пожаловать на сайт "Синегорье"!</h2>
+          </div>
+          <div class="col-4">
+            <img class="welcome__photo" loading="lazy" src="./src/img/sinegorie_photo.jpg" alt="/">
+          </div>
+        </div>
+  </div>
+</section>
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<center>
+  <div id="carouselExampleIndicators" class="carou_photos carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img loading="lazy" src="./src/img/mountains.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img loading="lazy" src="./src/img/bar.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img loading="lazy" src="./src/img/billiards.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img loading="lazy" src="./src/img/sauna.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div></center>
+
+
+
+
+<!-- Button trigger modal -->
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Контакты</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Место положение
+          </h6>
+
+          <iframe src="https://www.google.com/maps/d/embed?mid=15oKEiRyEcnvZFrDC64hTVcSu1qE&hl=ru&ehbc=2E312F" width="300" height="250"></iframe>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Контакты
+          </h6>
+          <p><i class="fas fa-home "></i>Челябинская область, г. Юрюзань, ул. Карла Маркса 60</p>
+          <p>
+            <i class="fas fa-envelope "></i>
+            Sinegorie-ural@yandex.ru
+          </p>
+          <p><i class="fas fa-phone "></i> 8 (351)-472-59-88</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    Администратор сайта - Алексей Фёклин
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+  <br>
+  <br>
+  <br>
+<!-- 
+  <h4 class="main__text" >
+    Гостиничный комплекс "Синегорье" - это уголок уюта и комфорта в сердце уральских гор. Неповторимая красота уральской природы, чистейший горный воздух, создают удивительную атмосферу отдыха. Удобное расположение комплекса вблизи реки Юрюзань, горы Завьялиха, многочисленных скал и пещер Усть-Катава, чистейших родников и минеральных источников, сделают досуг туристов и отдыхающих насыщенным и интересным.
+<br>
+<br>
+    Отель имеет удобное географическое расположение, в доступной близости располагаются такие города как Катав-Ивановск, Усть-Катав, Бакал, Трехгорный, Сатка. Равноудаленность и близость этих городов от Юрюзани позволит гостям, проживающим в нашем отеле, посетить эти города с рабочими визитами. Город Юрюзань расположен в непосредственной близости от федеральной трассы М5, что позволяет путешественникам, чей путь проходит через Уральский регион, найти приют и восстановить силы для дальнейшего путешествия в нашем комфортабельном отеле находящегося в центре города.
+<br>
+<br>
+    Трехэтажный отель, построен в современном стиле, имеет собственную котельную, которая обеспечивает комфортные условия проживания нашим гостям в самые сильные уральские морозы. Круглосуточная охрана, идеальная чистота и ухоженность внутренних помещений и прилегающей территории, бесплатная автопарковка для гостей. Для поклонников зимнего спорта, гостям нашего отеля предлагается бесплатный трансферт до горнолыжного комплекса "Завьялиха" с великолепными лыжными трассами и потрясающей природой горных долин.
+<br>
+<br>
+    Гостиничный комплекс "Синегорье" располагает целым набором дополнительных услуг как для отдыха, так и для бизнеса, который способен удовлетворить практически все потребности наших гостей: теннис, бильярд, сауна с бассейном, бар, ресторан, караоке-бар, конференц-услуги, ресторанное обслуживание мероприятий, бесплатный беспроводной интернет в холле, организация трансферов, походы, экскурсии, рыбалка. В отеле 24 номера, в том числе 8 двухкомнатных номеров класса "люкс". В каждом номере есть телефон, телевизор, факс (по запросу на стойке администратора), спутниковое TV, радио, мини-бар. В ванной комнате: душевая кабина, санузел, набор для душа, полотенца.
+  </h4>
+</div> -->
+
+
+
+
+
+
+
+<!-- Модалки  -->
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="about__text" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">О нас</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center><img class="photo_in_modal" loading="lazy" src="./src/img/sinegorie_photo1.jpg" alt=""></center>
+<br>
+        Гостиничный комплекс "Синегорье" - это уголок уюта и комфорта в сердце уральских гор. Неповторимая красота уральской природы, чистейший горный воздух, создают удивительную атмосферу отдыха. Удобное расположение комплекса вблизи реки Юрюзань, горы Завьялиха, многочисленных скал и пещер Усть-Катава, чистейших родников и минеральных источников, сделают досуг туристов и отдыхающих насыщенным и интересным.
+<br>
+<br>
+    Отель имеет удобное географическое расположение, в доступной близости располагаются такие города как Катав-Ивановск, Усть-Катав, Бакал, Трехгорный, Сатка. Равноудаленность и близость этих городов от Юрюзани позволит гостям, проживающим в нашем отеле, посетить эти города с рабочими визитами. Город Юрюзань расположен в непосредственной близости от федеральной трассы М5, что позволяет путешественникам, чей путь проходит через Уральский регион, найти приют и восстановить силы для дальнейшего путешествия в нашем комфортабельном отеле находящегося в центре города.
+<br>
+<br>
+    Трехэтажный отель, построен в современном стиле, имеет собственную котельную, которая обеспечивает комфортные условия проживания нашим гостям в самые сильные уральские морозы. Круглосуточная охрана, идеальная чистота и ухоженность внутренних помещений и прилегающей территории, бесплатная автопарковка для гостей.
+<br>
+<br>
+    Гостиничный комплекс "Синегорье" располагает целым набором дополнительных услуг как для отдыха, так и для бизнеса, который способен удовлетворить практически все потребности наших гостей: теннис, бильярд, сауна с бассейном, бар, кафе, конференц-услуги, обслуживание праздничных мероприятий, бесплатный беспроводной интернет, походы, экскурсии, рыбалка. В отеле 15 номера, в том числе 8 двухкомнатных номеров класса "люкс". В каждом номере есть телефон для внутренней связи (администратор, бар), телевизор, холодильник, WiFi. В санузле: душевая кабина, набор для душа, полотенца.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="modal fade" id="news" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Новости</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+<!-- 
+
+
+        <div class="accordion" id="accordionExample">
+
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+ -->
+
+
+
+ <h2>Новостей пока нет.</h2>
+ <h2>Возможно размещение рекламы.</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade" id="rooms" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Номера</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a class="btn btn-primary" href="./pages/blocknumbers.html" role="button">Блочные номера</a>
+        <a class="btn btn-primary" href="./pages/suite.html" role="button">Люкс</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="photo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Галерея</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- ТУТ!!! -->
+        <center>
+          <div class="gallery">  
+            <img class="gallery_photos" loading="lazy" src="./src/img/bar.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/billiards.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/blocknumbers.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/blocknumbers1.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/blocknumbers2.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/mountains.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/sauna.png" alt="">
+            <img class="gallery_photos" loading="lazy"  src="./src/img/sinegorie_photo.jpg" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/sinegorie_photo1.jpg" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/suite.png" alt="">
+            <img class="gallery_photos" loading="lazy" src="./src/img/suite1.png" alt="">
+          </div>
+        </center>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
